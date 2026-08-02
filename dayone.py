@@ -1,10 +1,8 @@
-nama = "ozzie" 
-umur = 20
+flag = "CTF{Belajar_Python}"
 
-print(nama)
-
-if umur > 18:
-    print("dewasa")
-
-for i in range(5):
-    print(i)
+print(flag)
+print(len(flag))
+print(flag[0])
+print(flag[-1])
+print(flag.lower())
+print(flag.upper())
